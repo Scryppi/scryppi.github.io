@@ -1,0 +1,163 @@
+body {
+  font-size: 14px;
+  background-color: #F7FAFB;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333333;
+}
+html, body {
+  min-height: 100%;
+}
+
+a, button {
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  transition: all 200ms;
+  color: #333333;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button:hover, button:active, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+input, input:hover, input:active, input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  border: none;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+ul {
+  margin: 0px;
+}
+
+p {
+  line-height: 1.7em;
+}
+textarea {
+  outline: none;
+  resize: none;
+}
+@media(min-width: 1200px){
+  .container__fluid{
+    width: 100%;
+  }
+}
+.vertical-align__wrap {
+  list-style: none;
+  display: table;
+  height: 100%;
+  position: relative;
+  padding-left: 0px;
+}
+.vertical__align {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  position: relative;
+}
+.custom__list {
+  list-style: none;
+  padding-left: 0px;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.right__part {
+  float: right;
+}
+.col__center{
+  float: none;
+  display: block;
+  margin: auto;
+}
+.text__center{
+  text-align: center;
+}
+.full__width{
+  width: 100%;
+}
+.main-{
+  border: 1px solid black;
+  padding: 15px;
+  height: 100%;
+  margin: 15px 0;
+}
+.username-{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.contacts-{
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 15px;
+}
+.contacts- > span{
+  display: inline-block;
+  margin-right: 5px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+.contacts- > span:last-child{
+  border-right: none;
+}
+.profession-title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.section-title{
+  text-align: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 5px 0;
+  margin-bottom: 7px;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.list-inline{
+  margin-bottom: 15px;
+}
+.list-inline > li{
+  margin-right: 5px;
+  position: relative;
+  padding-left: 15px;
+  font-size: 18px;
+}
+.list-inline > li:before{
+  content: "♦";
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.paragraph-title{
+  font-size: 16px;
+  font-weight: bold;
+}
