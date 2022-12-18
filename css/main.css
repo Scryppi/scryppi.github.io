@@ -13,7 +13,8 @@ a, button {
   -webkit-transition: all 200ms;
   -moz-transition: all 200ms;
   transition: all 200ms;
-  color: #333333;
+  color: #1463d9;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
@@ -158,6 +159,6 @@ textarea {
   left: 0;
 }
 .paragraph-title{
-  font-size: 16px;
-  font-weight: bold;
+  /*font-size: 20px;*/
+  /*font-weight: bold;*/
 }
